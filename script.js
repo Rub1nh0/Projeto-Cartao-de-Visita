@@ -8,11 +8,11 @@ function toogleMode(){
     //else{
     //    html.classList.add('light')}
     
-   html.classList.toggle('light')//forma simplificada
+   html.classList.toggle("light")//forma simplificada
     // pegar a tag img
     const img = document.querySelector("#profile img")
     //substituir a img
-    if(html.classList.contains('light')){
+    if(html.classList.contains("light")){
     //se tiver a cond light mode, adicionar a img light
     img.setAttribute("src", "./assets/Avatar-light.png")
     }
